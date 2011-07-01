@@ -1,6 +1,14 @@
-=Streaming usable
+= Search Tweet[Worker Pattern]
 
-== Referencia
+Codigo que usa la lógica de worker pattern presentada por Ryan Smith.
+
+== Requerimientos
+* Ruby 1.9.2
+* Bundler
+* Rails 3.1
+* Memcached
+
+== Referencias
 
 The Worker Pattern (Ryan Smith)
 

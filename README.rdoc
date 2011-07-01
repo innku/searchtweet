@@ -1,4 +1,4 @@
-= Search Tweet[Worker Pattern]
+= Search Tweet [Worker Pattern]
 
 Codigo que usa la lógica de worker pattern presentada por Ryan Smith.
 

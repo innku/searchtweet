@@ -1,0 +1,11 @@
+<% search.tweets.each do |tweet| %>
+  <div class='tweet'>
+    <%= link_to image_tag(tweet.photo), tweet.user_page  %>
+    <div class='tweet_info'>
+      <%= link_to "@#{tweet.user}", tweet.user_page %>
+      <p>
+        <%= tweet.text.html_safe %>
+      </p>
+    </div>
+  </div>
+<% end %>

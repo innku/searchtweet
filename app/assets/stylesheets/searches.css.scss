@@ -1,0 +1,28 @@
+.search{
+  width:350px;
+  height:450px;
+  overfloat:hidden;
+  margin-bottom:10px;
+  float:left;
+  background-color:#eee;
+  margin-right:10px;
+  
+  .loading{
+    text-align:center;
+  }
+  
+  h2{
+    text-align:center;
+    background-color:#000;
+    color:#eee;
+    margin-top:0px;
+  }
+  
+  div.tweet{ 
+    padding:10px;
+    border-bottom:1px solid #000;
+    img{
+      float:left;
+    }
+  }
+}

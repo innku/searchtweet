@@ -1,0 +1,23 @@
+<%= form_for Search.new, :remote => true do |f| %>
+  <%= f.text_field :query  %>
+  <%= f.submit 'Crear nueva busqueda' %>
+<% end %>
+
+<br />
+
+<div id="searches">
+  <% @searches.each do |search| %>
+    <div id='search-<%= search.id %>' class='search'>
+      <h2><%= search.query.titleize %></h2>
+      <div class='tweets'>
+        <div class='loading'><%= image_tag('loader.gif') %></div>
+      </div>
+    </div>
+  <% end %>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+  <% @searches.each do |search| %>
+    <%= "fetch(#{search.id});" %>
+  <% end %>
+</script>

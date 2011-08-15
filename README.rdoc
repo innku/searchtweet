@@ -25,3 +25,7 @@ http://twitter.rubyforge.org/
 ¿Que es memcached?
 
 http://content.newrelic.com/railslab/videos/08-ScalingRails-Memcached-fixed.mp4
+
+== Check out the flow of this gem
+
+htt://codeflow.at/innku
